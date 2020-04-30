@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-environment > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-generator > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - insight > async > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-generator > async > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > async > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - insight > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - tabtab > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-environment > grouped-queue > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-environment > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-generator > yeoman-environment > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > yeoman-environment > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > global-tunnel-ng > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > insight > async > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - jhipster-core > winston > async > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > insight > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > tabtab > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > yeoman-environment > grouped-queue > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > yeoman-environment > inquirer > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - yo > yeoman-doctor > global-tunnel-ng > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
+    - jhipster-core > lodash:
+        patched: '2020-04-30T21:51:41.676Z'
